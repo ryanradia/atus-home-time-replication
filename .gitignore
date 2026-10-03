@@ -1,0 +1,14 @@
+# IPUMS microdata and codebooks: never commit (IPUMS terms of use)
+data/*
+!data/README.md
+*.dat
+*.dat.gz
+*.dta
+atus_*.xml
+
+# local cache and logs
+build/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
