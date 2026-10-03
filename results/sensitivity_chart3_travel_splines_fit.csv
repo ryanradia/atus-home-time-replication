@@ -1,0 +1,5 @@
+model,n_params,weighted_R2
+Natural cubic splines in W and WH,68,0.5351690230611155
+Linear splines + work travel 180501 (linear spline),71,0.5374788509863151
+"Linear splines + work travel, broad 1805xx (linear spline)",71,0.5379311063470991
+Natural cubic splines + work travel 180501 (cubic spline),71,0.5378387416295767

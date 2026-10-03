@@ -1,0 +1,19 @@
+check,result,benchmark
+one record per respondent (unique CASEID),PASS,
+all records are ATUS respondents (LINENO = 1),PASS,
+every respondent has activity records,PASS,
+"DURATION sums to 1,440 minutes for every diary",PASS,
+sleep never has a recorded location (no double counting),PASS,
+Sharkey home = WHERE home + no-location personal care,PASS,
+W = WH + WA + WU,PASS,
+WH <= W,PASS,
+"all minute totals within 0-1,440",PASS,
+primary job work is a subset of broad 05xxxx work,PASS,
+replicate weights present and positive,PASS,
+WH <= H,PASS,
+H = WH + N exactly,PASS,
+"2003 weighted mean time at home, Sharkey definition",991.9541,991.9541
+"2022 weighted mean time at home, Sharkey definition",1091.3233,1091.323
+2003-2022 analytic N,222757,222757.0
+"2003-2022 model, 2022 coefficient (Sharkey definition)",98.90,99.0
+identity: Chart 1 = Chart 2 + job work at home (max abs residual),1.9e-11,
